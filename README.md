@@ -1,5 +1,7 @@
 # Academic Projects
 
+<img src="project.png" alt="Academic Projects" width="50%" height="50%">
+
 | Project Name                     | Course                                          | Language & Tool                | Tags or Keywords                                                                                                      |
 |----------------------------------|-------------------------------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [Simple Machine][p0]             | [Operating Systems Concepts (CS 5348)][os]      | [C++11][cpp11], [CMake][cmake] | [CLI][cli] [virtual machine][vm], [IPC][ipc], [pipe][pp], OS's low-level behaviors                                    |
