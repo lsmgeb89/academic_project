@@ -2,18 +2,20 @@
 
 <img src="project.png" alt="Academic Projects" width="50%" height="50%">
 
-| Project Name                     | Course                                          | Language & Tool                | Tags or Keywords                                                                                                      |
-|----------------------------------|-------------------------------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [Simple Machine][p0]             | [Operating Systems Concepts (CS 5348)][os]      | [C++11][cpp11], [CMake][cmake] | [CLI][cli] [virtual machine][vm], [IPC][ipc], [pipe][pp], OS's low-level behaviors                                    |
-| [Theater Simulation][p1]         | [Operating Systems Concepts (CS 5348)][os]      | [C++11][cpp11], [CMake][cmake] | [multi-thread][mt], [semaphore][sem], [mutex][lock], [condition variable][cv]                                         |
-| [Message Posting][p2]            | [Operating Systems Concepts (CS 5348)][os]      | [C++11][cpp11], [CMake][cmake] | [IPC][ipc], [socket][so], server, [multi-thread][mt], [mutex][lock]                                                   |
-| [Library Management][p3]         | [Database Design (CS 6360)][dd]                 | [C++11][cpp11], [qmake][qmake] | [GUI][gui], [Qt5][qt], [MySQL][mysql], [MVC][mvc]                                                                     |
-| [Tiny Base][p4]                  | [Database Design (CS 6360)][dd]                 | [C++11][cpp11], [CMake][cmake] | [CLI][cli] database engine, [MySQL][mysql], [SQlite][sqlite], disk [B+ Tree][bpt]                                     |
-| [HS Leader][p5]                  | [Distributed Computing (CS 6380)][dc]           | [C++11][cpp11], [CMake][cmake] | [HS Algorithm][hs], [leader election][le], [multi-thread][mt], [mutex][lock], [condition variable][cv]                |
-| [Asynch Bellmanford][p6]         | [Distributed Computing (CS 6380)][dc]           | [C++11][cpp11], [CMake][cmake] | [Asynchronous Bellman–Ford Algorithm][bf], [multi-thread][mt], [mutex][lock], [condition variable][cv]                |
-| [Mutual Exclusion][p7]           | Introduction to Multicore Programming (CS 6301) | [C++11][cpp11], [CMake][cmake] | n-thread [mutual exclusion][me], tournament-based algorithm, [TAS][tas], [TTAS][ttas]                                 |
-| [Concurrent Linked List][p8]     | Introduction to Multicore Programming (CS 6301) | [C++11][cpp11], [CMake][cmake] | concurrent linked list, lazy synchronization, lock-free data structure, [multi-thread][mt], [condition variable][cv]  |
-| [Concurrent Unbounded Queue][p9] | Introduction to Multicore Programming (CS 6301) | [C++11][cpp11], [CMake][cmake] | concurrent unbounded queue, lock-free data structure, [multi-thread][mt], [condition variable][cv]                    |
+| Project Name                                          | Course                                          | Language & Tool                              | Tags or Keywords                                                                                                      |
+|-------------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| [Simple Machine][p0]                                  | [Operating Systems Concepts (CS 5348)][os]      | [C++11][cpp11], [CMake][cmake]               | [CLI][cli] [virtual machine][vm], [IPC][ipc], [pipe][pp], OS's low-level behaviors                                    |
+| [Theater Simulation][p1]                              | [Operating Systems Concepts (CS 5348)][os]      | [C++11][cpp11], [CMake][cmake]               | [multi-thread][mt], [semaphore][sem], [mutex][lock], [condition variable][cv]                                         |
+| [Message Posting][p2]                                 | [Operating Systems Concepts (CS 5348)][os]      | [C++11][cpp11], [CMake][cmake]               | [IPC][ipc], [socket][so], server, [multi-thread][mt], [mutex][lock]                                                   |
+| [Library Management][p3]                              | [Database Design (CS 6360)][dd]                 | [C++11][cpp11], [qmake][qmake]               | [GUI][gui], [Qt5][qt], [MySQL][mysql], [MVC][mvc]                                                                     |
+| [Tiny Base][p4]                                       | [Database Design (CS 6360)][dd]                 | [C++11][cpp11], [CMake][cmake]               | [CLI][cli] database engine, [MySQL][mysql], [SQlite][sqlite], disk [B+ Tree][bpt]                                     |
+| [HS Leader][p5]                                       | [Distributed Computing (CS 6380)][dc]           | [C++11][cpp11], [CMake][cmake]               | [HS Algorithm][hs], [leader election][le], [multi-thread][mt], [mutex][lock], [condition variable][cv]                |
+| [Asynch Bellmanford][p6]                              | [Distributed Computing (CS 6380)][dc]           | [C++11][cpp11], [CMake][cmake]               | [Asynchronous Bellman–Ford Algorithm][bf], [multi-thread][mt], [mutex][lock], [condition variable][cv]                |
+| [Mutual Exclusion][p7]                                | Introduction to Multicore Programming (CS 6301) | [C++11][cpp11], [CMake][cmake]               | n-thread [mutual exclusion][me], tournament-based algorithm, [TAS][tas], [TTAS][ttas]                                 |
+| [Concurrent Linked List][p8]                          | Introduction to Multicore Programming (CS 6301) | [C++11][cpp11], [CMake][cmake]               | concurrent linked list, lazy synchronization, lock-free data structure, [multi-thread][mt], [condition variable][cv]  |
+| [Concurrent Unbounded Queue][p9]                      | Introduction to Multicore Programming (CS 6301) | [C++11][cpp11], [CMake][cmake]               | concurrent unbounded queue, lock-free data structure, [multi-thread][mt], [condition variable][cv]                    |
+| [Tweets Sentiment Analysis][p10]                      | Big Data Management and Analytics (CS 6350)     | [Python 3][py3]                              | [Spark Streaming][ss], [Elasticsearch][es], [Kibana][ki]                                                              |
+| [CUDA Implementation of Collaborative Filtering][p11] | GPGPU Computing (CS 6301)                       | [C++11][cpp11], [CUDA][cuda], [CMake][cmake] | [CUDA][cuda], [Parallel Algorithm][pa], [Collaborative Filtering][cf], [Recommendation System][rs]                    |
 
 [p0]: https://github.com/lsmgeb89/simple_machine
 [p1]: https://github.com/lsmgeb89/theater_simulation
@@ -25,12 +27,16 @@
 [p7]: https://github.com/lsmgeb89/mutual_exclusion
 [p8]: https://github.com/lsmgeb89/concurrent_linked_list
 [p9]: https://github.com/lsmgeb89/concurrent_unbounded_queue
+[p10]: https://github.com/lsmgeb89/tweets_analysis
+[p11]: https://github.com/lsmgeb89/cu_cf
 
 [os]: https://catalog.utdallas.edu/2016/graduate/courses/cs5348
 [dd]: https://catalog.utdallas.edu/2016/graduate/courses/cs6360
 [dc]: https://catalog.utdallas.edu/2016/graduate/courses/cs6380
 
 [cpp11]: https://en.wikipedia.org/wiki/C%2B%2B11
+[cuda]: https://en.wikipedia.org/wiki/CUDA
+[py3]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [cmake]: https://cmake.org/
 [qmake]: https://en.wikipedia.org/wiki/Qmake
 
@@ -55,3 +61,9 @@
 [me]: https://en.wikipedia.org/wiki/Mutual_exclusion
 [tas]: https://en.wikipedia.org/wiki/Test-and-set
 [ttas]: https://en.wikipedia.org/wiki/Test_and_test-and-set
+[ss]: https://spark.apache.org/streaming/
+[es]: https://www.elastic.co/
+[ki]: https://www.elastic.co/products/kibana
+[pa]: https://en.wikipedia.org/wiki/Parallel_algorithm
+[cf]: https://en.wikipedia.org/wiki/Collaborative_filtering
+[rs]: https://en.wikipedia.org/wiki/Recommender_system
